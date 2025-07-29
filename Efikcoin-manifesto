@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EFIKCOIN: Light of the Ancestral Economy</title>
+  <style>
+    body {
+      margin: 0; padding: 0;
+      background: linear-gradient(135deg, #001f2d 0%, #005f73 100%);
+      color: #f0f3bd;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex; justify-content: center; align-items: center;
+      height: 100vh; text-align: center;
+    }
+    .hero {
+      max-width: 600px;
+      animation: glow 3s ease-in-out infinite alternate;
+    }
+    h1 {
+      font-size: 3rem; margin-bottom: 0.5rem;
+      text-shadow: 0 0 8px #f0f3bd;
+    }
+    p {
+      font-size: 1.2rem; line-height: 1.5;
+      margin-bottom: 2rem;
+    }
+    .cta {
+      background: #f0f3bd; color: #001f2d;
+      padding: 0.8rem 1.6rem; border: none;
+      font-size: 1rem; cursor: pointer;
+      border-radius: 4px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      text-transform: uppercase;
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 8px #f0f3bd; }
+      to   { text-shadow: 0 0 16px #f0f3bd; }
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>EFIKCOIN</h1>
+    <p>
+      Welcome to the Dawn of Digital Liberation.  
+      Where ancestral wisdom meets blockchain transparency.  
+      Stake. Refer. Thrive.  
+      Join the movement that uplifts humanity and honors the light within us all.
+    </p>
+    <button class="cta" onclick="location.href='/vault.html?ref=YOUR_WALLET_ADDRESS'">
+      Enter the Gateway
+    </button>
+  </div>
+</body>
+</html>
